@@ -17,7 +17,7 @@ public class PortfolioService {
         return portfolioRepository.findByUserId(userId).orElse(null);
     }
 
-    public Portfolio savePortfolio(Portfolio portfolio) {
-        return portfolioRepository.save(portfolio);
-    }
+//    public Portfolio savePortfolio(Portfolio portfolio) {
+//        return portfolioRepository.save(portfolio);
+//    }
 }
